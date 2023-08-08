@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(()=>{
     setTimeout(() =>{
       setPreloader(false)
-    },2000)
+    },2500)
   },[])
   return (
     <>
