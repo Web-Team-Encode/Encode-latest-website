@@ -1,0 +1,28 @@
+.preloader{
+    background-color: #151414;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    flex-direction: column;
+}
+.preloader h2{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 5vw;
+}
+.titles{
+    display: flex;
+    gap: 2.7vw;
+    margin-top: 2.7vw;
+    overflow: hidden;
+}
+.titles h3{
+    font-size: 1.8vw;
+    font-weight: 800;
+    color: #A9A9A9;
+}
+.loader{
+    text-align: center;
+}
