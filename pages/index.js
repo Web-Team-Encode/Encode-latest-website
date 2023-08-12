@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
 import Preloader from '../Components/Preloader';
+import Navbar from '../Components/Navbar';
+import EarthQuake from '../Components/EarthQuake';
 
 export default function Home() {
 
@@ -12,11 +14,13 @@ export default function Home() {
     },2500)
   },[])
   return (
-    <>
+    <div className={styles.main}>
       {preloader ? <Preloader /> : <>
-      Home Page
       
+      <Navbar/>
+      <EarthQuake/>
+      <h1>ENCODE</h1>
       </>}
-    </>
+    </div>
   )
 }
