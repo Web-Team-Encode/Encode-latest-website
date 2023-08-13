@@ -31,3 +31,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../Fonts//Gilroy-Bold.ttf');
+}

@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Preloader from '../Components/Preloader';
 import Navbar from '../Components/Navbar';
 import EarthQuake from '../Components/EarthQuake';
+import TimeLine from '../Components/TimeLine';
 
 export default function Home() {
 
@@ -18,7 +19,8 @@ export default function Home() {
       {preloader ? <Preloader /> : <>
       
       <Navbar/>
-      <EarthQuake/>
+      <TimeLine/>
+      {/* <EarthQuake/> */}
       <h1>ENCODE</h1>
       </>}
     </div>

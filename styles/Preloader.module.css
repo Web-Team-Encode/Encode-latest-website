@@ -6,11 +6,12 @@
     align-items: center;
     height: 90vh;
     color: white;
+    font-family: 'Orbitron';
     flex-direction: column;
 }
 .preloader h2{
-    font-family: 'Syncopate', sans-serif;
-    font-size: 5vw;
+    font-family: 'Orbitron';
+    font-size: 7vw;
 }
 .titles{
     display: flex;
