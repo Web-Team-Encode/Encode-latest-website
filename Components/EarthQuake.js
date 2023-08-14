@@ -1,5 +1,5 @@
-import { Suspense } from 'react'
-import { Canvas } from '@react-three/fiber'
+import { Suspense} from 'react'
+import { Canvas, events } from '@react-three/fiber'
 import MEarthQuake from '../Components/Models/EarthModel.js'
 import { Environment } from '@react-three/drei'
 
