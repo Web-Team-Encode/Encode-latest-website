@@ -1,7 +1,29 @@
-.main h1{
+.main {
+    position: relative;
+}
+
+.maintitle {
     position: absolute;
     bottom: 3rem;
     left: 3rem;
     font-size: 5rem;
     font-family: 'Syncopate', sans-serif;
+}
+
+.tagline {
+    position: absolute;
+    top: 30vh;
+    right: 7vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tagline h1 {
+    font-size: 2rem;
+}
+.tagline p {
+    font-size: 1rem;
+    border-left: 3px solid #04D4A2;
+    padding: 1rem;
+    margin: 2rem 0;
+    color: gray;
 }

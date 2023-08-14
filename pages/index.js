@@ -4,24 +4,28 @@ import Preloader from '../Components/Preloader';
 import Navbar from '../Components/Navbar';
 import EarthQuake from '../Components/EarthQuake';
 import TimeLine from '../Components/TimeLine';
-
 export default function Home() {
 
   const [preloader, setPreloader] = useState(true);
 
-  useEffect(()=>{
-    setTimeout(() =>{
+  useEffect(() => {
+    setTimeout(() => {
       setPreloader(false)
-    },2500)
-  },[])
+    }, 2500)
+  }, [])
   return (
-    <div className={styles.main}>
+    <div>
       {preloader ? <Preloader /> : <>
-      
-      <Navbar/>
-      {/* <TimeLine/> */}
-      <EarthQuake/>
-      <h1>ENCODE</h1>
+
+        <Navbar />
+        {/* <TimeLine/> */}
+        <EarthQuake />
+        <h1 className={styles.maintitle}>ENCODE</h1>
+        <div className={styles.tagline}>
+          <h1>Wired Minds,</h1>
+          <h1>Boundless Possibilities</h1>
+          <p>Our Events</p>
+        </div>
       </>}
     </div>
   )

@@ -4,7 +4,7 @@ import styles from '../styles/Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        <div className="logo">Encode</div>
+        <div className={styles.logo}>Encode</div>
         <nav>
             <ul className={styles.navlist}>
                 <li>Home</li>
