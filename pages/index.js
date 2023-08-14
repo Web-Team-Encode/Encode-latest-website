@@ -19,8 +19,8 @@ export default function Home() {
       {preloader ? <Preloader /> : <>
       
       <Navbar/>
-      <TimeLine/>
-      {/* <EarthQuake/> */}
+      {/* <TimeLine/> */}
+      <EarthQuake/>
       <h1>ENCODE</h1>
       </>}
     </div>

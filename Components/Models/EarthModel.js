@@ -15,6 +15,9 @@ export default function EarthModel(props) {
       // const x = (mouse.x * viewport.width) / 2 //configuring x,y based on viewport dimensions
       // const y = (mouse.y * viewport.height) / 2 //configuring x,y based on viewport dimensions
       // earthRef.current.rotation.set(-x,y,2) //setting the rotaion value of the globe
+      console.log('hello')
+    }
+    else{
       earthRef.current.rotation.y += 0.005 //setting the rotaion value of the globe
     }
   });
