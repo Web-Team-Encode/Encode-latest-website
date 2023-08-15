@@ -3,7 +3,9 @@ import styles from '../styles/Home.module.css'
 import Preloader from '../Components/Preloader';
 import Navbar from '../Components/Navbar';
 import EarthQuake from '../Components/EarthQuake';
+import HeroSection from '../Components/HeroSection'
 import TimeLine from '../Components/TimeLine';
+import { About } from '../Components/About';
 
 export default function Home() {
 
@@ -20,8 +22,10 @@ export default function Home() {
       
       <Navbar/>
       {/* <TimeLine/> */}
-      <EarthQuake/>
-      <h1>ENCODE</h1>
+      {/* <EarthQuake/> */}
+      <HeroSection />
+      <About />
+      <TimeLine />
       </>}
     </div>
   )

@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family:  'Orbitron','Raleway','Syncopate',Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: white;
+    overflow-x: hidden;
     background-color: #151414;
 }
 
@@ -19,14 +20,13 @@ a {
   margin: 0px;
 }
 .earthquake{
-  position: absolute;
-  top: 8vh;
+  /* top: 8vh; */
   left: 0;
   height: 92vh;
   width: 100vw;
 }
 .earthquake canvas{
-  background-image: url("/stars.png");
+  /* background-image: url("/stars.png"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,5 +1,6 @@
 import React from 'react'
 import {VerticalTimeline,VerticalTimelineElement,} from 'react-vertical-timeline-component';
+// import { VerticalTimelineElement, VerticalTimeline } from 'react-vertical-timeline-component/dist-modules/VerticalTimelineElement';
 import styles from '../styles/TimeLine.module.css'
 import 'react-vertical-timeline-component/style.min.css';
 import { timeline_data } from '../Data';
@@ -8,6 +9,7 @@ const TimeLine = () => {
   return (
     <>
       <div className={styles.timeline_wrapper}>
+        <h1>Join our latest Events</h1>
         <VerticalTimeline>
         {timeline_data.map((elem) => {
             // let isWorkIcon = elem.icon === "work";

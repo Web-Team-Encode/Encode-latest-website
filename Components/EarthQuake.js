@@ -8,7 +8,7 @@ export default function EarthQuake() {
     <div className="earthquake">
       <Canvas>
         <Suspense fallback={null}>
-          <MEarthQuake />
+          {/* <MEarthQuake /> */}
           {/* <Environment preset="night" background /> */}
         </Suspense>
       </Canvas>

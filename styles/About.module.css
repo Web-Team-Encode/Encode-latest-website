@@ -1,0 +1,13 @@
+.about_section{
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #EFF0DF;
+    color: black;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.about_section b{
+    color: green;
+}
