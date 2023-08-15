@@ -3,11 +3,12 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    background-color: #EFF0DF;
-    color: black;
-    font-weight: 900;
+    background-color: #151414;
     font-size: 1.3rem;
+    justify-content: flex-end;
+    font-weight: 100;
+    letter-spacing: 1.5px;
 }
-.about_section b{
-    color: green;
+.about_section section{
+    width: 50%;
 }

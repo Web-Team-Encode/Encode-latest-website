@@ -6,18 +6,17 @@ import EarthQuake from '../Components/EarthQuake';
 import HeroSection from '../Components/HeroSection'
 import TimeLine from '../Components/TimeLine';
 import { About } from '../Components/About';
-
 export default function Home() {
 
   const [preloader, setPreloader] = useState(true);
 
-  useEffect(()=>{
-    setTimeout(() =>{
+  useEffect(() => {
+    setTimeout(() => {
       setPreloader(false)
-    },2500)
-  },[])
+    }, 2500)
+  }, [])
   return (
-    <div className={styles.main}>
+    <div>
       {preloader ? <Preloader /> : <>
       
       <Navbar/>

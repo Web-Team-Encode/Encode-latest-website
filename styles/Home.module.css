@@ -1,4 +1,10 @@
 /* .main h1{
+=======
+.main {
+    position: relative;
+}
+
+.maintitle {
     position: absolute;
     bottom: 3rem;
     left: 3rem;
