@@ -6,6 +6,7 @@ import HeroSection from '../Components/HeroSection'
 import TimeLine from '../Components/TimeLine';
 import { About } from '../Components/About';
 import Team from '../Components/Team';
+import Tagline from '../Components/Tagline';
 export default function Home() {
 
   const [preloader, setPreloader] = useState(false);
@@ -25,6 +26,7 @@ export default function Home() {
       <HeroSection />
       <About />
       <Team />
+      <Tagline />
       <TimeLine />
       </>}
     </div>

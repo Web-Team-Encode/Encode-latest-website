@@ -68,3 +68,24 @@ filter: grayscale(64%);
 .team_cards{
   margin: 3rem 0px;
 }
+.community_button{
+  display: flex;
+  justify-content: center;
+}
+.community_button button{
+  margin: 1.3rem;
+  background-color: transparent;
+  padding: 0.65rem;
+  color: white;
+  border: 2px solid gray;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.community_button div{
+  border-left: 2px solid green;
+  transform: translate(50%); 
+  margin-top: 3rem;
+}
+.community_button h2{
+  transform: translate(50%);
+}
