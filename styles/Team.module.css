@@ -1,0 +1,70 @@
+.team_section{
+    margin: 48px;
+}
+.team_section h2{
+    margin-bottom: 12px;
+}
+
+
+.team_image{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.team_image img{
+  object-fit: cover;
+  max-width: 100%;
+}
+.club_button{
+  background-color: transparent;
+  color: white;
+  padding: 0.7rem;
+  border: 1.6px solid gray;
+  border-radius: 2rem;
+  margin: 3rem 0px;
+  font-family: 'Raleway';
+}
+
+.card_flex{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content {
+  /* height: 300px;   */
+  /* background: gray; */
+  position: relative;
+  width: min-content;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+}
+.team_name{
+  margin-top: 1.3rem; 
+  font-family: 'Raleway';
+  font-size: 1rem;
+}
+.content img{
+  width: 300px;
+filter: grayscale(64%);
+  object-fit: cover;
+  height: 300px;
+}
+.content:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 1rem solid #151414;
+  border-left:  1rem solid gray;
+  width: 0;
+}
+.team_cards{
+  margin: 3rem 0px;
+}

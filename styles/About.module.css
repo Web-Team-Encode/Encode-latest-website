@@ -6,9 +6,18 @@
     background-color: #151414;
     font-size: 1.3rem;
     justify-content: flex-end;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 1.5px;
+    font-family: 'Raleway';
 }
 .about_section section{
     width: 50%;
+}
+.links{
+    display: flex;
+    margin-top: 3rem;
+}
+.event_button{
+    border-left: 3px solid yellow; /* Adjust the width and color as needed */
+  padding-left: 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {VerticalTimeline,VerticalTimelineElement,} from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement, } from 'react-vertical-timeline-component';
 // import { VerticalTimelineElement, VerticalTimeline } from 'react-vertical-timeline-component/dist-modules/VerticalTimelineElement';
 import styles from '../styles/TimeLine.module.css'
 import 'react-vertical-timeline-component/style.min.css';
@@ -11,32 +11,26 @@ const TimeLine = () => {
       <div className={styles.timeline_wrapper}>
         <h1>Join our latest Events</h1>
         <VerticalTimeline>
-        {timeline_data.map((elem) => {
+          {timeline_data.map((elem) => {
             // let isWorkIcon = elem.icon === "work";
             // let showButton = elem.buttonText !=  undefined && elem.buttonText != null && elem.buttonText != "";
             return (
               <VerticalTimelineElement
-              className="sub_element"
-              // className="vertical-timeline-element--work"
+                className="sub_element"
+                // className="vertical-timeline-element--work"
                 key={elem.id} // key props for uniquely identify the card
                 date={elem.date} // date props because we want to show date on the other side of the card
-                dateClassName="date" // because we want to style the date
-                // icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
-                // iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+                dateClassName={styles.date} // because we want to style the date
+              // icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              // iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               >
-              <h3 className="vertical-timeline-element-title" style={{fontFamily:"Gilroy-semibold"}}>Creative Director</h3>
-              <h5 className="vertical-timeline-element-subtitle" style={{fontFamily:"Gilroy-regular "}}>{elem.location}</h5>
-              <p id="description">{elem.description}</p>
-             
-
+                <h3 className="vertical-timeline-element-title" style={{ fontFamily: "Gilroy-semibold" }}>Creative Director</h3>
+                <h5 className="vertical-timeline-element-subtitle" style={{ fontFamily: "Gilroy-regular " }}>{elem.location}</h5>
+                <p id="description">{elem.description}</p>
               </VerticalTimelineElement>
             );
           })}
-          
-
-          
-       </VerticalTimeline>
-        
+        </VerticalTimeline>
       </div>
     </>
   )

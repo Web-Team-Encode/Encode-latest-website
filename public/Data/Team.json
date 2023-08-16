@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Vedansh Khamdar",
+        "img": "../Images/Vedansh.jpeg",
+        "designation" : "President"
+    },
+    {
+        "name": "Karan Dattani",
+        "img": "../Images/Karan_Dattani.jpeg",
+        "designation" : "Treasurer"
+    },
+    {
+        "name": "Saurav Navdhare",
+        "img": "../Images/Saurav.jpg",
+        "designation" : "Vice President"
+    },
+    {
+        "name": "Preet Sojitra",
+        "img": "../Images/Preet.jpg",
+        "designation": "Vice President"
+    }
+]

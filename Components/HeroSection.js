@@ -5,6 +5,7 @@ import { useLoader, useFrame, Canvas } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls } from "@react-three/drei";
 import Link from 'next/link';
+import EarthQuake from '../Components/EarthQuake';
 
 const HeroSection = () => {
 
@@ -30,7 +31,7 @@ const HeroSection = () => {
         return (
             <Suspense>
                 <GLTFModel modelPath={modelPath} scale={scale} position={position} />
-                <OrbitControls />
+                {/* <OrbitControls /> */}
             </Suspense>
         );
     };
@@ -55,7 +56,6 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className={styles.globe_section}>
-                    <section className="3d-model-section" >
                         {/* <div className={styles.canvas_wrapper}>
                             <Canvas camera={{ position: [10, -75, 10] }}>
                                 <OrbitControls />
@@ -65,7 +65,7 @@ const HeroSection = () => {
                                 <ModelViewer modelPath="./earthquakes.glb" />
                             </Canvas>
                         </div> */}
-                    </section>
+                        {/* <EarthQuake /> */}
                 </div>
             </div>
 

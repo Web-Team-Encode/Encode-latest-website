@@ -19,7 +19,7 @@ export default function EarthModel(props) {
     // else {
     // }
   });
-  const { nodes, materials } = useGLTF('/earthquakes_-_2010__2011.glb')
+  const { nodes, materials } = useGLTF('/earthquakes.glb')
   return (
     <group ref={earthRef} {...props} dispose={null}>
       <group rotation={[4.448, 0, 40.66]} position={[0,0,0]} scale={0.03} onPointerOver={() => {setHover(true);}} onPointerOut={() => {setHover(false);}}>
@@ -32,4 +32,4 @@ export default function EarthModel(props) {
   )
 }
 
-useGLTF.preload('/earthquakes_-_2010__2011.glb')
+useGLTF.preload('./earthquakes.glb')
