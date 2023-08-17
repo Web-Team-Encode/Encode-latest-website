@@ -20,6 +20,7 @@
 .event_button{
     border-left: 3px solid yellow; /* Adjust the width and color as needed */
   padding-left: 20px;
+    margin-left: 3rem;
 }
 
 @media (max-width: 1010px) {
@@ -34,6 +35,7 @@
     .event_button{
         padding: 0px;
         padding-left: 20px;
+        margin-top: 2rem;
     }
     .about_section{
         text-align: justify;

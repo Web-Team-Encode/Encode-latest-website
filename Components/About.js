@@ -15,7 +15,7 @@ export const About = () => {
           <div className={styles.links}>
             <div className={styles.event_button}>
               <Link href="/">
-               Our <br /> Gallary
+               Our <br /> Gallery
               </Link>
             </div>
             <div className={styles.event_button}>

@@ -52,7 +52,7 @@
 }
 .content img{
   width: 300px;
-filter: grayscale(64%);
+filter: grayscale(24%);
   object-fit: cover;
   height: 300px;
 }
