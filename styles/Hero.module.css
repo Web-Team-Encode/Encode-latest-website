@@ -37,13 +37,13 @@
 }
 .globe_section{
     position: absolute;
-    top: -15vh;
+    top: -5vh;
     z-index: 0;
-    left: -15vw;
+    left: -23vw;
 }
 .canvas_wrapper {
-    width: 60vw;
-    height: 50vw;
+    /* width: 60vw;
+    height: 50vw; */
     /* position: absolute; */
   }
   .canvas_wrapper canvas{

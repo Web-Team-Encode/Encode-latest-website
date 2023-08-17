@@ -22,7 +22,7 @@ export default function EarthModel(props) {
   const { nodes, materials } = useGLTF('/earthquakes.glb')
   return (
     <group ref={earthRef} {...props} dispose={null}>
-      <group rotation={[4.448, 0, 40.66]} position={[0,0,0]} scale={0.03} onPointerOver={() => {setHover(true);}} onPointerOut={() => {setHover(false);}}>
+      <group rotation={[4.448, 0, 40.66]} position={[0,0,0]} scale={0.065} onPointerOver={() => {setHover(true);}} onPointerOut={() => {setHover(false);}}>
         <points geometry={nodes.Object_2.geometry} material={materials['Scene_-_Root']} />
         <points geometry={nodes.Object_3.geometry} material={materials['Scene_-_Root']} />
         <points geometry={nodes.Object_4.geometry} material={materials['Scene_-_Root']} />

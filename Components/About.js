@@ -12,16 +12,17 @@ export const About = () => {
             talents of individuals for the benefit of the collective. Together, we're shaping a
             world where ownership, collaboration, and innovation thrive beyond traditional boundaries.
           </p>
-          <section className={styles.links}>
-            <section className={styles.event_button}>
-              <Link href="/">Gallary
+          <div className={styles.links}>
+            <div className={styles.event_button}>
+              <Link href="/">
+               Our <br /> Gallary
               </Link>
-            </section>
-            <section className={styles.event_button}>
+            </div>
+            <div className={styles.event_button}>
               <Link href="/">Upcoming Events
               </Link>
-            </section>
-          </section>
+            </div>
+          </div>
         </section>
       </div>
     </>

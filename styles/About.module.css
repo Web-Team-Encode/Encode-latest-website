@@ -21,3 +21,40 @@
     border-left: 3px solid yellow; /* Adjust the width and color as needed */
   padding-left: 20px;
 }
+
+@media (max-width: 1010px) {
+    .about_section section{
+        width: 100%;
+        margin: 24px;
+    }
+    .links{
+        margin: 0px;
+        padding: 0px;
+    }
+    .event_button{
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .about_section{
+        text-align: justify;
+    }
+}
+@media (max-width: 600px) {
+    .event_button{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 500px) {
+    .about_section{
+        font-size: 1rem;
+    }
+    .event_button{
+        font-size: 1rem;
+        margin: 0px;    
+        margin-top: 2.4rem;
+    }
+    .links{
+        display: block;
+        margin: 0px;
+    }
+}

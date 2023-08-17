@@ -38,11 +38,12 @@ const Team = () => {
                    
                    <section>
                    <h2>We Encourage Creative Minds</h2>
-                    <div>
-                        <button>
-                            Join Our Community
-                        </button>
-                    </div></section>
+                        <div>
+                            <button>
+                                Join Our Community
+                            </button>
+                        </div>
+                    </section>
                     
                 </section>
             </div>

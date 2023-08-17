@@ -65,7 +65,7 @@ const HeroSection = () => {
                                 <ModelViewer modelPath="./earthquakes.glb" />
                             </Canvas>
                         </div> */}
-                        {/* <EarthQuake /> */}
+                        <EarthQuake />
                 </div>
             </div>
 

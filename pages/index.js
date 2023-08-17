@@ -20,13 +20,12 @@ export default function Home() {
     <div>
       {preloader ? <Preloader /> : <>
       
-      <Navbar/>
-      {/* <TimeLine/> */}
+      {/* <Navbar/> */}
       {/* <EarthQuake/> */}
-      <HeroSection />
+      {/* <HeroSection /> */}
       <About />
       <Team />
-      <Tagline />
+      {/* <Tagline /> */}
       <TimeLine />
       </>}
     </div>

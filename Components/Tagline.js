@@ -4,9 +4,12 @@ const Tagline = () => {
     return ( 
         <>
             <section className={styles.tagline}>
-                <h3>
-                    We're Architects of Change: Building Community Which Actually Creates Impact
-                </h3>
+                <div className={styles.tagline_text}>
+                    <h3>
+                        We're Architects of Change: Building Community Which Actually Creates Impact
+                    </h3>
+                </div>
+                
             </section>
         </>
      );

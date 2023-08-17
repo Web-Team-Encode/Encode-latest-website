@@ -56,6 +56,10 @@ filter: grayscale(64%);
   object-fit: cover;
   height: 300px;
 }
+.content img:hover{
+  filter: grayscale(35%);
+  transition: 0.4s filter;
+}
 .content:before {
   content: '';
   position: absolute;

@@ -1,6 +1,7 @@
-.tagline{
-    margin: 48px;
+.tagline_text{
+    padding: 48px;
+    background: linear-gradient(to top,rgba(185, 120, 0, 0.537), #151414);
 }
-.tagline h3{
+.tagline_text h3{
     font-size: 6.8rem;
 }
