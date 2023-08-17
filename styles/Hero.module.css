@@ -30,6 +30,7 @@
     justify-content: center;
     padding: 2.3rem;
     width: 40%;
+    z-index: 5;
 }
 .inner_flex h1{
     font-size: 2rem;
@@ -41,12 +42,23 @@
     z-index: 0;
     left: -23vw;
 }
-.canvas_wrapper {
-    /* width: 60vw;
-    height: 50vw; */
-    /* position: absolute; */
-  }
-  .canvas_wrapper canvas{
-    height: 100%;
-    width: 100%;
-  }
+
+.lower_logo_section h1{
+    color: rgb(238, 255, 238);
+}
+
+@media (max-width: 1285px) {
+   .inner_flex{
+    padding: 3px;
+    width: 28%;
+   }
+   .globe_section{
+    max-width: 500px;
+   }
+}
+@media (max-width: 1105px) {
+    .globe_section{
+        left: -25vw;
+        top: -8vh;
+    }
+}

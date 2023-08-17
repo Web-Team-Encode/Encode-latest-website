@@ -19,7 +19,7 @@ export const About = () => {
               </Link>
             </div>
             <div className={styles.event_button}>
-              <Link href="/">Upcoming Events
+              <Link href="/">Upcoming <br /> Events
               </Link>
             </div>
           </div>
