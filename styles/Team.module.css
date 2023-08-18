@@ -1,5 +1,7 @@
 .team_section{
     margin: 48px;
+    text-align: center;
+    color: white;
 }
 .team_section h2{
     margin-bottom: 12px;
@@ -100,4 +102,20 @@ filter: grayscale(24%);
 }
 .community_button h2{
   transform: translate(50%);
+}
+
+@media (max-width: 850px) {
+  .community_button{
+    justify-content: flex-start;
+  }
+  .community_button div{
+    transform: translate(0%);
+  }
+  .community_button h2{
+    transform: translate(0%);
+  }
+}
+
+@media (max-width: 550px) {
+  
 }
