@@ -5,6 +5,8 @@
     background-color: transparent;
     height: auto;
     color: black;
+    color: white;
+    text-align: center;
 }
 .timeline_wrapper h1{
     margin: 5.5rem 0px;
@@ -14,4 +16,21 @@
 }
 .date{
     color: white;
+}
+
+@media (max-width: 720px) {
+    .timeline_wrapper h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 555px) {
+    .timeline_wrapper h1{
+        font-size: 3.1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .timeline_wrapper h1{
+        font-size: 2rem;
+    }
 }

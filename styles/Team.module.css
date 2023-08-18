@@ -117,5 +117,12 @@ filter: grayscale(24%);
 }
 
 @media (max-width: 550px) {
-  
+  .team_section{
+    margin: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .team_section{
+    margin: 24px;
+  }
 }
