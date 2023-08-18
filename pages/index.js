@@ -7,9 +7,10 @@ import TimeLine from '../Components/TimeLine';
 import { About } from '../Components/About';
 import Team from '../Components/Team';
 import Tagline from '../Components/Tagline';
+import Gallary from '../Components/Gallary';
 export default function Home() {
 
-  const [preloader, setPreloader] = useState(false);
+  const [preloader, setPreloader] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -27,6 +28,7 @@ export default function Home() {
       <Team />
       <Tagline />
       <TimeLine />
+      <Gallary />
       </>}
     </div>
   )

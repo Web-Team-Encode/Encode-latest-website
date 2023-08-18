@@ -17,6 +17,7 @@
     list-style-type: none;
 }
 .navlist li{
+    cursor: pointer;
     display: inline;
     margin: 0 1rem;
 }

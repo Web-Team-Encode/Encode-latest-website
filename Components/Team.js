@@ -32,7 +32,7 @@ const Team = () => {
                 <hr />
                 <button className={styles.club_button}>More than just technical club</button>
                 <section className={styles.team_image}>
-                    <img src='/Images/team_img.png' />
+                    {/* <img src='/Images/team_img.png' /> */}
                 </section>
                 <section className={styles.community_button}>
                    

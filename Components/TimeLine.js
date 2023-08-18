@@ -8,7 +8,7 @@ import { timeline_data } from '../Data';
 const TimeLine = () => {
   return (
     <>
-      <div className={styles.timeline_wrapper}>
+      <div className={styles.timeline_wrapper} id='timeline'>
         <h1>Join our latest Events</h1>
         <VerticalTimeline>
           {timeline_data.map((elem) => {

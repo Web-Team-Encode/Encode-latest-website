@@ -5,7 +5,7 @@ import Link from 'next/link';
 export const About = () => {
   return (
     <>
-      <div className={styles.about_section}>
+      <div className={styles.about_section} id='about'>
         <section>
           <p>We believe in the power of individual contribution: the fire at the heart of Web3.
             We back the founders of new forms of network, digital organisations that harness the

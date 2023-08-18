@@ -7,10 +7,10 @@ const Navbar = () => {
         <div className={styles.logo}>Encode</div>
         <nav>
             <ul className={styles.navlist}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Events</li>
-                <li>Team</li>
+                <a href='#home'><li>Home</li></a>
+                <a href='#about'> <li>About</li></a>
+                <a href='#tagline'><li>Events</li></a>
+                <a href='#timeline'> <li>Team</li></a>
             </ul>
         </nav>
     </div>
