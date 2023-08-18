@@ -46,7 +46,7 @@ const HeroSection = () => {
                                 Curious Minds <br /> Boundless Opportunities
                             </h1>
                             <section className={styles.event_button}>
-                                <Link href="/">Our Events
+                                <Link href="#tagline">Our Events
                                 </Link>
                             </section>
                         </section>

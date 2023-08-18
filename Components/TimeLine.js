@@ -10,7 +10,9 @@ const TimeLine = () => {
     <>
       <div className={styles.timeline_wrapper} id='timeline'>
         <h1>Join our latest Events</h1>
-        <VerticalTimeline>
+
+        <section> <h2>coming soon ...</h2> </section>
+        {/* <VerticalTimeline>
           {timeline_data.map((elem) => {
             // let isWorkIcon = elem.icon === "work";
             // let showButton = elem.buttonText !=  undefined && elem.buttonText != null && elem.buttonText != "";
@@ -30,7 +32,7 @@ const TimeLine = () => {
               </VerticalTimelineElement>
             );
           })}
-        </VerticalTimeline>
+        </VerticalTimeline> */}
       </div>
     </>
   )

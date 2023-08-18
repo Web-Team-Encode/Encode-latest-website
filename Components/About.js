@@ -7,10 +7,10 @@ export const About = () => {
     <>
       <div className={styles.about_section} id='about'>
         <section>
-          <p>We believe in the power of individual contribution: the fire at the heart of Web3.
-            We back the founders of new forms of network, digital organisations that harness the
-            talents of individuals for the benefit of the collective. Together, we&apos;re shaping a
-            world where ownership, collaboration, and innovation thrive beyond traditional boundaries.
+          <p>Encode is an inclusive technical community that goes beyond conventional tech promotion, 
+            embracing individuals eager to explore the realms of computer science and emerging technologies. 
+            It's a supportive space where curiosity, knowledge sharing, and innovation are celebrated, 
+            fostering the growth of both technology and its passionate enthusiasts.
           </p>
           <div className={styles.links}>
             <div className={styles.event_button}>

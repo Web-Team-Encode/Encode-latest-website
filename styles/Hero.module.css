@@ -67,3 +67,29 @@
         top: -8vh;
     } */
 }
+@media (max-width : 860px) {
+    .hero_contents{
+        height: 100vh;
+    }
+    .hero_upper_content{
+        justify-content: flex-start;
+        width: 100%;    
+    }
+    .inner_flex{
+        width: 100%;
+        gap: 2rem;
+        height: 55vh;
+    }
+    .lower_logo_section h1{
+       font-size: 20vw;
+    }
+}
+
+@media (max-width: 470px) {
+    .hero_contents{
+        padding: 1.3rem;
+    }
+    .lower_logo_section {
+        color: green;
+    }
+}
