@@ -50,6 +50,14 @@
   font-family: 'Raleway';
   font-size: 1rem;
 }
+.team_image{
+  cursor: pointer;
+}
+.team_image:hover{
+  filter: grayscale(0%);
+  transition: filter 0.4s;
+  cursor: pointer;
+}
 .content img{
   width: 300px;
 filter: grayscale(24%);

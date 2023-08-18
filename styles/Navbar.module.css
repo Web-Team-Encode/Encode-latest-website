@@ -21,3 +21,16 @@
     display: inline;
     margin: 0 1rem;
 }
+@media (max-width: 860px) {
+    .navlist{
+        display: none;
+    }
+    .navbar{
+        padding: 0 3rem;
+    }
+}
+@media (max-width: 470px) {
+    .navbar{
+        padding: 0 1.3rem;
+    }
+}

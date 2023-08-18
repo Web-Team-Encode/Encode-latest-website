@@ -3,5 +3,22 @@
     background: linear-gradient(to top,rgba(185, 120, 0, 0.537), #151414);
 }
 .tagline_text h3{
-    font-size: 6.8rem;
+    font-size: 8vw;
+}
+@media (max-width: 750px) {
+    .tagline_text h3{
+        font-size: 7.5vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .tagline_text h3{
+        font-size: 8.5vw;
+    }
+    .tagline_text{
+        padding: 28px;
+    }
+}
+@media (max-width: ) {
+    
 }

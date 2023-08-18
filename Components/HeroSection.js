@@ -46,7 +46,7 @@ const HeroSection = () => {
                                 Weird Mind&apos;s <br /> boundless opportunities
                             </h1>
                             <section className={styles.event_button}>
-                                <Link href="/">Our Events
+                                <Link href="#tagline">Our Events
                                 </Link>
                             </section>
                         </section>
