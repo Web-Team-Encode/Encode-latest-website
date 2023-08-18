@@ -5,7 +5,7 @@ const Gallary = () => {
     <>
       <div className={styles.gallary}>
         <hr />
-        <h2>Our Gallary</h2>
+        <h2>Our Gallery</h2>
         <div className={styles.grid_wrapper}>
           <div>
             <img
