@@ -33,19 +33,19 @@ const Gallary = () => {
           </div>
           <div className={styles.tall}>
             <img
-              src="https://images.pexels.com/photos/2873486/pexels-photo-2873486.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/Images/img4.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="https://images.pexels.com/photos/5998240/pexels-photo-5998240.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/Images/img5.jpeg"
               alt=""
             />
           </div>
           <div className={styles.wide}>
             <img
-              src="https://images.pexels.com/photos/2041396/pexels-photo-2041396.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/Images/img6.jpeg"
               alt=""
             />
           </div>
@@ -57,13 +57,13 @@ const Gallary = () => {
           </div> */}
           <div className={styles.tall}>
             <img
-              src="https://images.pexels.com/photos/1586145/pexels-photo-1586145.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/Images/img7.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1588414734732-660b07304ddb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=675&amp;q=80"
+              src="/Images/img9.png"
               alt=""
             />
           </div>
@@ -120,7 +120,7 @@ const Gallary = () => {
             <div className={styles.link}>
               <hr />
               <section className={styles.inner_link}>
-                <a href="https://www.instagram.com/storiesarabia/?hl=en" target="_blank">
+                <a href="https://www.instagram.com/encode.pdeu/" target="_blank">
                   Instagram
                 </a>
               </section>
@@ -128,19 +128,19 @@ const Gallary = () => {
             <div className={styles.link}>
               <hr />
               <section className={styles.inner_link}>
-                <a href="https://www.facebook.com/storiesarabia/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/encode.pdeu/" target="_blank">Threads</a>
               </section>
             </div>
             <div className={styles.link}>
               <hr />
               <section className={styles.inner_link}>
-                <a href="https://twitter.com/storiesarabia?lang=en" target="_blank">Twitter</a>
+                <a href="https://twitter.com/Encode_PDEU" target="_blank">Twitter</a>
               </section>
             </div>
             <div className={styles.link}>
               <hr />
               <section className={styles.inner_link}>
-                <a href="https://www.linkedin.com/company/storiesarabia/" target="_blank">
+                <a href="https://www.linkedin.com/company/encode-pdpu/" target="_blank">
                   Linkedin
                 </a>
               </section>

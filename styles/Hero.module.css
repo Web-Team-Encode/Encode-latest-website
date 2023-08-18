@@ -57,12 +57,13 @@
     width: 28%;
    }
    .globe_section{
-    max-width: 500px;
+    /* max-width: 500px; */
+    width: 100vw;
    }
 }
 @media (max-width: 1105px) {
-    .globe_section{    
+    /* .globe_section{    
         left: -25vw;
         top: -8vh;
-    }
+    } */
 }

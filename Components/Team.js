@@ -17,7 +17,7 @@ const Team = () => {
                             return (
                                 <>
                                     <div class={styles.content}>
-                                        <img src={item.img}/>
+                                        <img src={item.img} />
                                         <section className={styles.team_name}>
                                             <h2>{item.name}</h2>
                                             <h3>{item.designation}</h3>
@@ -26,8 +26,8 @@ const Team = () => {
                                 </>
                             )
                         })}
-                        </section>
-                    
+                    </section>
+
                 </section>
                 <hr />
                 <button className={styles.club_button}>More than just technical club</button>
@@ -35,16 +35,17 @@ const Team = () => {
                     {/* <img src='/Images/team_img.png' /> */}
                 </section>
                 <section className={styles.community_button}>
-                   
-                   <section>
-                   <h2>We Encourage Creative Minds</h2>
+
+                    <section>
+                        <h2>We Encourage Creative Minds</h2>
                         <div>
-                            <button>
+                            <a href='https://chat.whatsapp.com/CbZ618g7HCOCMOgRoV4W8m' target='_blank'><button>
                                 Join Our Community
-                            </button>
+                            </button></a>
+
                         </div>
                     </section>
-                    
+
                 </section>
             </div>
         </>
