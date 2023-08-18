@@ -6,7 +6,7 @@ const Tagline = () => {
             <section className={styles.tagline} id='tagline'>
                 <div className={styles.tagline_text}>
                     <h3>
-                        We're Architects of Change: Building Community Which Actually Creates Impact
+                        We&apos;re Architects of Change: Building Community Which Actually Creates Impact
                     </h3>
                 </div>
                 
