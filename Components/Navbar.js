@@ -9,8 +9,8 @@ const Navbar = () => {
             <ul className={styles.navlist}>
                 <a href='#home'><li>Home</li></a>
                 <a href='#about'> <li>About</li></a>
-                <a href='#tagline'><li>Events</li></a>
-                <a href='#timeline'> <li>Team</li></a>
+                <a href='#timeline'><li>Events</li></a>
+                <a href='#tagline'> <li>Team</li></a>
             </ul>
         </nav>
     </div>
