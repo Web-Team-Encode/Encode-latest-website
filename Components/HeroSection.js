@@ -43,7 +43,7 @@ const HeroSection = () => {
                     <div className={styles.hero_upper_content}>
                         <section className={styles.inner_flex}>
                             <h1>
-                                Weird Mind&apos;s <br /> boundless opportunities
+                                Curious Mind&apos;s <br /> boundless opportunities
                             </h1>
                             <section className={styles.event_button}>
                                 <Link href="#tagline">Our Events
