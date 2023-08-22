@@ -33,13 +33,13 @@ const Gallary = () => {
           </div>
           <div className={styles.tall}>
             <img
-              src="/Images/img4.jpeg"
+              src="/Images/img5.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="/Images/img5.jpeg"
+              src="/Images/img4.jpeg"
               alt=""
             />
           </div>
