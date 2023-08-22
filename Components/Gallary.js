@@ -69,13 +69,13 @@ const Gallary = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1588224575346-501f5880ef29?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80"
+              src="/Images/img10.jpg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="https://images.pexels.com/photos/1586145/pexels-photo-1586145.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/Images/img11.jpg"
               alt=""
             />
           </div>
