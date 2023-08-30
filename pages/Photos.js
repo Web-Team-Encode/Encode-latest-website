@@ -29,19 +29,20 @@ const Photos = () => {
                 </div>
 
             </div>
-            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />  <br />
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /><br /> <br />
             <div className={styles.grid_wrapper}>
                 <div className={styles.tall}>
                     <img src="/Images/img6.jpeg" alt="team" className={styles.tall_image} />
                 </div>
                 <div>
-                    <img src="/Images/img7.jpeg" alt="team" className={styles.image} />
+                    <img src="/Images/img7.jpeg" alt="team" className={styles.image2} />
                 </div>
                 <div className={styles.tall}>
-                    <img src="/Images/img8.jpeg" alt="team" className={styles.image} />
+                    <img src="/Images/img8.jpeg" alt="team" className={styles.image2} />
                 </div>
 
             </div>
+            <br /> <br /><br /> <br /><br /> <br /><br /> <br />
             <div className={styles.grid_wrapper}>
                 <div className={styles.wide}>
                     <img src="/Images/img9.png" alt="team" className={styles.wide_image} />
@@ -80,7 +81,7 @@ const Photos = () => {
             <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br />
             <div id="event 2" className={styles.event_container}>
                 <p className={styles.event_name}>CODEWAR</p>
-                <p className={styles.event_desc}>Codewar 2023, Encode's premier event for the Tesseract community, concluded as a remarkable journey into competitive programming. Spanning a dynamic 3-hour coding marathon, participants showcased their problem-solving skills and coding finesse. Challenges emphasized both coding acumen and quick thinking. Codewar 2023 exemplified growth and the thrill of pressure situations, celebrating dedication to coding. As Codewar's virtual battlefield closed, it reiterated that each keystroke, algorithm, and strategy shapes coding excellence's future. Until the next edition, keep coding, pushing boundaries, and evolving in this dynamic technological landscape.</p>
+                <p className={styles.event_desc}>Codewar 2023, Encode&apos;s premier event for the Tesseract community, concluded as a remarkable journey into competitive programming. Spanning a dynamic 3-hour coding marathon, participants showcased their problem-solving skills and coding finesse. Challenges emphasized both coding acumen and quick thinking. Codewar 2023 exemplified growth and the thrill of pressure situations, celebrating dedication to coding. As Codewar&apos;s virtual battlefield closed, it reiterated that each keystroke, algorithm, and strategy shapes coding excellence&apos;s future. Until the next edition, keep coding, pushing boundaries, and evolving in this dynamic technological landscape.</p>
                 <div className={styles.grid_wrapper}>
                     <div className={styles.tall}>
                         <img src="/Images/img20.jpg" alt="team" className={styles.image} />
@@ -105,7 +106,7 @@ const Photos = () => {
             <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br />
             <div id="event 1" className={styles.event_container}>
                 <p className={styles.event_name}>IDEATHON</p>
-                <p className={styles.event_desc}> Space exploration had sparked a multitude of inquiries demanding innovative resolutions. Challenges encompassing the management of space debris, the redefinition of launch techniques for practicality, and the safeguarding of astronauts against cosmic radiations had stirred interest and curiosity. ENCODE had extended an invitation to enthusiasts to rise to the occasion and become integral to the solutions through their dynamic event, IDEATHON. This platform functioned as a catalyst for inventive concepts. Teams had been assembled, thoughts had been pooled, and brainstorming sessions had delved profoundly into the core of space-related predicaments. Participants had seized the opportunity to contribute to the constantly evolving realm of space exploration while potentially garnering acknowledgment for their imaginative pursuits. The stage had been set to mold the future, and participants had engaged in ENCODE's IDEATHON, allowing their innovations to radiate brilliantly.</p>
+                <p className={styles.event_desc}> Space exploration had sparked a multitude of inquiries demanding innovative resolutions. Challenges encompassing the management of space debris, the redefinition of launch techniques for practicality, and the safeguarding of astronauts against cosmic radiations had stirred interest and curiosity. ENCODE had extended an invitation to enthusiasts to rise to the occasion and become integral to the solutions through their dynamic event, IDEATHON. This platform functioned as a catalyst for inventive concepts. Teams had been assembled, thoughts had been pooled, and brainstorming sessions had delved profoundly into the core of space-related predicaments. Participants had seized the opportunity to contribute to the constantly evolving realm of space exploration while potentially garnering acknowledgment for their imaginative pursuits. The stage had been set to mold the future, and participants had engaged in ENCODE&apos;s IDEATHON, allowing their innovations to radiate brilliantly.</p>
                 <div className={styles.grid_wrapper}>
                     <div className={styles.tall}>
                         <img src="/Images/img25.jpg" alt="team" className={styles.image} />
@@ -120,6 +121,7 @@ const Photos = () => {
 
                 </div>
             </div>
+            <p className={styles.end_line}>Stay Tuned for Upcoming Events</p>
         </div>
     );
 }
