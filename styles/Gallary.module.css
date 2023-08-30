@@ -67,6 +67,22 @@
 .social a{
     font-size: 1.3rem;
 }
+.link a{
+    font-size:large;
+    color:white;
+    text-align: center;
+    justify-content: center;
+
+}
+.view{
+    font-size: large;
+    align-items:center ;
+    text-align: center;
+    margin-top: 4px;
+    text-decoration: underline;
+    text-shadow: 2px;
+}
+
 @media (max-width: 860px) {
     .social_media h1{
         font-size: 7vw;

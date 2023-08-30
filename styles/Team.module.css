@@ -116,6 +116,12 @@ filter: grayscale(24%);
   }
 }
 
+.tagline{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+}
+
 @media (max-width: 550px) {
   .team_section{
     margin: 30px;

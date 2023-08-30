@@ -1,4 +1,6 @@
 import styles from "../styles/Gallary.module.css";
+import Link from "next/link";
+import Photos from "../pages/Photos";
 
 const Gallary = () => {
   return (
@@ -110,6 +112,8 @@ const Gallary = () => {
             />
           </div> */}
         </div>
+        <Link href="/Photos"><p className={styles.view}>View More</p>
+              </Link>
         <section className={styles.social_media}>
           <hr />
           <p>Follow us on social media</p>
