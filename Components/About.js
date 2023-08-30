@@ -9,7 +9,7 @@ export const About = () => {
         <section>
           <p>Encode is an inclusive technical community that goes beyond conventional tech promotion, 
             embracing individuals eager to explore the realms of computer science and emerging technologies. 
-            It's a supportive space where curiosity, knowledge sharing, and innovation are celebrated, 
+            It&apos;s a supportive space where curiosity, knowledge sharing, and innovation are celebrated, 
             fostering the growth of both technology and its passionate enthusiasts.
           </p>
           <div className={styles.links}>
