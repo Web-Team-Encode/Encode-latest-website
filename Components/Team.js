@@ -37,7 +37,7 @@ const Team = () => {
                 <section className={styles.community_button}>
 
                     <section>
-                        <h2>We Encourage Creative Minds</h2>
+                        <h2 className={styles.tagline}>We Encourage Creative Minds</h2>
                         <div>
                             <a href='https://chat.whatsapp.com/CbZ618g7HCOCMOgRoV4W8m' target='_blank'><button>
                                 Join Our Community
