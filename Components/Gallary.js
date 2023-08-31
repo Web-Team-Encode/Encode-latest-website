@@ -7,7 +7,7 @@ const Gallary = () => {
     <>
       <div className={styles.gallary}>
         <hr />
-        <h2>Our Gallary</h2>
+        <h2>Our Gallery</h2>
         <div className={styles.grid_wrapper}>
           <div>
             <img
@@ -114,43 +114,9 @@ const Gallary = () => {
         </div>
         <Link href="/Photos"><p className={styles.view}>View More</p>
               </Link>
-        <section className={styles.social_media}>
-          <hr />
-          <p>Follow us on social media</p>
-          <h1>
-            Stay up to date with the latest news, announcements and events.
+              <h1 className={styles.social_media_p}>
+            
           </h1>
-          <section className={styles.social}>
-            <div className={styles.link}>
-              <hr />
-              <section className={styles.inner_link}>
-                <a href="https://www.instagram.com/encode.pdeu/" target="_blank">
-                  Instagram
-                </a>
-              </section>
-            </div>
-            <div className={styles.link}>
-              <hr />
-              <section className={styles.inner_link}>
-                <a href="https://www.instagram.com/encode.pdeu/" target="_blank">Threads</a>
-              </section>
-            </div>
-            <div className={styles.link}>
-              <hr />
-              <section className={styles.inner_link}>
-                <a href="https://twitter.com/Encode_PDEU" target="_blank">Twitter</a>
-              </section>
-            </div>
-            <div className={styles.link}>
-              <hr />
-              <section className={styles.inner_link}>
-                <a href="https://www.linkedin.com/company/encode-pdpu/" target="_blank">
-                  Linkedin
-                </a>
-              </section>
-            </div>
-          </section>
-        </section>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../styles/Photos.module.css"; // Import the styles
+import styles from "../styles/Photos.module.css"; 
 
 const Photos = () => {
     return (
@@ -18,7 +18,6 @@ const Photos = () => {
                 <div className={styles.tall}>
                     <img src="/Images/img3.jpeg" alt="team" className={styles.image} />
                 </div>
-
             </div>
             <div className={styles.grid_wrapper}>
                 <div className={styles.wide}>
@@ -27,7 +26,6 @@ const Photos = () => {
                 <div className={styles.wide}>
                     <img src="/Images/img5.jpeg" alt="team" className={styles.wide_image} />
                 </div>
-
             </div>
             <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /><br /> <br />
             <div className={styles.grid_wrapper}>
@@ -40,7 +38,6 @@ const Photos = () => {
                 <div className={styles.tall}>
                     <img src="/Images/img8.jpeg" alt="team" className={styles.image2} />
                 </div>
-
             </div>
             <br /> <br /><br /> <br /><br /> <br /><br /> <br />
             <div className={styles.grid_wrapper}>
@@ -50,10 +47,8 @@ const Photos = () => {
                 <div className={styles.wide}>
                     <img src="/Images/img10.jpg" alt="team" className={styles.wide_image} />
                 </div>
-
             </div>
             <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br />
-
             <p className={styles.text}> OUR EVENTS</p>
             <div id="event 1" className={styles.event_container}>
                 <p className={styles.event_name}> Introductory Session 2023</p>
@@ -81,7 +76,7 @@ const Photos = () => {
             <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br />
             <div id="event 2" className={styles.event_container}>
                 <p className={styles.event_name}>CODEWAR</p>
-                <p className={styles.event_desc}>Codewar 2023, Encode&apos;s premier event for the Tesseract community, concluded as a remarkable journey into competitive programming. Spanning a dynamic 3-hour coding marathon, participants showcased their problem-solving skills and coding finesse. Challenges emphasized both coding acumen and quick thinking. Codewar 2023 exemplified growth and the thrill of pressure situations, celebrating dedication to coding. As Codewar&apos;s virtual battlefield closed, it reiterated that each keystroke, algorithm, and strategy shapes coding excellence&apos;s future. Until the next edition, keep coding, pushing boundaries, and evolving in this dynamic technological landscape.</p>
+                <p className={styles.event_desc}>Codewar 2023, Encode&apos;s premier event for the Tesseract 2023, concluded as a remarkable journey into competitive programming. Spanning a dynamic 3-hour coding marathon, participants showcased their problem-solving skills and coding finesse. Challenges emphasized both coding acumen and quick thinking. Codewar 2023 exemplified growth and the thrill of pressure situations, celebrating dedication to coding. As Codewar&apos;s virtual battlefield closed, it reiterated that each keystroke, algorithm, and strategy shapes coding excellence&apos;s future. Until the next edition, keep coding, pushing boundaries, and evolving in this dynamic technological landscape.</p>
                 <div className={styles.grid_wrapper}>
                     <div className={styles.tall}>
                         <img src="/Images/img20.jpg" alt="team" className={styles.image} />
@@ -101,7 +96,6 @@ const Photos = () => {
                         <img src="/Images/img18.jpg" alt="team" className={styles.wide_image} />
                     </div>
                 </div>
-
             </div>
             <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br />
             <div id="event 1" className={styles.event_container}>
@@ -117,8 +111,6 @@ const Photos = () => {
                     <div className={styles.tall}>
                         <img src="/Images/img23.jpg" alt="team" className={styles.image} />
                     </div>
-
-
                 </div>
             </div>
             <p className={styles.end_line}>Stay Tuned for Upcoming Events</p>

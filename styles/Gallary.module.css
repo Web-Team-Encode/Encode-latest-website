@@ -45,42 +45,16 @@
 	grid-column: span 2;
 	grid-row: span 2;
 }
-.social_media{
-    margin-top: 5rem;
-}
-.social_media p{
+.social_media_p{
     margin-top: 1vw;
     font-weight: 300;
+    font-size: xx-large;
 }
-.social_media h1{
-    font-size: 5vw;
-    margin-top: 2vw;
-    width: 70%;
-    font-weight: 500;
-}
-.inner_link{
-    margin: 3rem;
-}
-.social{
-    margin-top: 3.5rem;
-}
-.social a{
-    font-size: 1.3rem;
-}
-.link a{
-    font-size:large;
-    color:white;
-    text-align: center;
-    justify-content: center;
 
-}
 .view{
-    font-size: large;
-    align-items:center ;
     text-align: center;
-    margin-top: 4px;
-    text-decoration: underline;
-    text-shadow: 2px;
+    margin-top: 5px;
+    
 }
 
 @media (max-width: 860px) {
