@@ -1,5 +1,5 @@
 .body{
-    margin: 15px;
+    margin: 10px;
 }
 .text {
     text-align: center;
@@ -37,22 +37,16 @@
 .image1{
     width: 100%;
     height:auto;
-    border-radius:2px;
     padding: 6px;
-
 }
 
 .image2{
     width: 400px;
 	height: 525px;
-	border-radius: 2px;
-    
-    
 }
 .image{
     width: 400px;
 	height: 300px;
-	border-radius: 5px;
     padding: 4px;
     
 }
@@ -113,39 +107,72 @@
 }
 
 
-/* Simplified media query for larger screens */
-@media (min-width: 530px) {
+/* ... (Your other CSS rules) ... */
+
+@media (max-width: 860px) {
+    .body{
+        margin: 5px;
+    }
     .grid_wrapper {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-auto-rows: 15vw; /* Use relative unit */
+        display: grid;
+        grid-gap: 10px;
+        grid-auto-rows: 500px;
         grid-auto-flow: dense;
     }
 
+    .grid_wrapper .wide {
+        grid-column: span 1;
+    }
+    .grid_wrapper .tall {
+        grid-row: span 1;
+    }
+    .grid_wrapper .big {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
     .wide_image {
-        width: 100%;
-        height: auto;
-        max-width: 600px; /* Limit maximum width for larger screens */
+        width: 380px;
+        height: 400px;
     }
-
     .tall_image {
-        width: 100%;
-        height: auto;
+        width: 380px;
+        height: 400px;
     }
-
-    .text {
-        font-size: 4vw; /* Use relative unit for font size */
-        margin-top: 2vw;
-    }
-
-    .event_name {
-        font-size: 3vw; /* Use relative unit for font size */
-        margin-top: 2.5vw;
-    }
-
-    .event_desc {
-        font-size: 2vw; /* Use relative unit for font size */
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        margin-left: 2vw;
+    .image2 {
+        width: 380px;
+        height: 400px;
     }
 }
+
+@media (max-width: 530px) {
+    .body{
+        margin: 5px;
+    }
+    .grid_wrapper {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 400px;
+    }
+
+    .grid_wrapper .wide {
+        grid-column: span 1;
+    }
+    .grid_wrapper .tall {
+        grid-row: span 1;
+    }
+    .grid_wrapper .big {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .wide_image {
+        width: 380px;
+        height: 400px;
+    }
+    .tall_image {
+        width: 380px;
+        height: 400px;
+    }
+}
+

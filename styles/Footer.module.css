@@ -1,0 +1,117 @@
+/* Add these classes to your existing CSS file */
+
+/* Base styles for the footer */
+.footer-clean {
+    background-color: black;
+    color: white;
+    padding: 48px 0;
+  }
+  
+  /* Center the content within the footer */
+  .footer-clean .container {
+    margin: 0 auto;
+  }
+  
+  /* Style for the club logo section */
+  .club_logo_img {
+    max-height: 48px;
+  }
+  
+  .club_logo_p {
+    color: white;
+    margin-top: 12px;
+  }
+    
+  
+  /* Style for the "Useful Links" and "Our Services" sections */
+  .h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  
+  
+  .opacity-80 {
+    opacity: 0.8;
+  }
+  
+ 
+  
+  /* List styles */
+  .list_none {
+    list-style: none;
+    padding-left: 0;
+    opacity: 1;
+  }
+
+  .list_none li a:hover {
+    opacity: 0.8;
+  }
+  
+  /* Social media icons */
+  .text-3xl {
+    font-size: 2rem;
+    margin-right: 8px;
+    opacity: 0.75;
+  }
+  
+  .opacity-60 {
+    opacity: 0.6;
+  }
+  
+  .social_media{
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social_media p{
+    margin-top: 1vw;
+    font-weight: 300;
+    font-size: x-large;
+}
+.social_media h1{
+    font-size: 5vw;
+    margin-top: 2vw;
+    width: 70%;
+    font-weight: 500;
+}
+.inner_link{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.social{
+    margin-top: 3.5rem;
+}
+.social a{
+    font-size: 1.3rem;
+}
+.link a{
+    font-size:large;
+    color:white;
+    text-align: center;
+    justify-content: center;
+
+}
+.view{
+    font-size: large;
+    align-items:center ;
+    text-align: center;
+    margin-top: 4px;
+    text-decoration: underline;
+    text-shadow: 2px;
+}
+
+.site_name{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.site{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

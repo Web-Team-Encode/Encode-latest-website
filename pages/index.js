@@ -8,6 +8,7 @@ import { About } from '../Components/About';
 import Team from '../Components/Team';
 import Tagline from '../Components/Tagline';
 import Gallary from '../Components/Gallary';
+import Footer from '../Components/footer';
 export default function Home() {
 
   const [preloader, setPreloader] = useState(true);
@@ -29,6 +30,7 @@ export default function Home() {
       <Tagline />
       <TimeLine />
       <Gallary />
+      <Footer />
       </>}
     </div>
   )
